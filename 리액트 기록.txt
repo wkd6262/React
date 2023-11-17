@@ -1,0 +1,42 @@
+리액트 재작업
+
+항상 파일을 다운 받은후 npm i 필수!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+src,package.json가져오기
+
+리액트에선 빈 괄호에도 </>를 붙여야 한다.
+%= 절대경로
+
+improt App from './App';
+
+<App />
+
+
+src 폴더에 작업한게 있어야 작동이 한다.
+
+항상 src - components 안에 파일
+
+import React - 자동완성
+
+단축키 - reactjs 확장
+
+rsc - 컴포넌트 시작
+
+rsf - 펑션 시작
+
+ rsf : 선언 함수형 컴포터는 - 펑션
+ rsc : 함수 표현식 컴포터는 - 컨스트
+
+new.Date()toLocaleString(); 현재 시간 날짜
+
+노드 종료 -ctrl + c
+
+중요한건 패키지.json ?
+
+옮길 때는 src,public,package.json,git이그노어 ㄱㄱ
+
+{} 중괄호가 보이면 return함수 필요  (const는 중괄호 안에?)
+
+*중복 호출을 조심하자!*
+import 중복 조심
+(succecs 까지 떠도 적용이 안되면 app.js 호출 확인하기)
