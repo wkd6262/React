@@ -1,0 +1,79 @@
+.borderTop {
+  border: 1px solid #000;
+  width: 80%;
+  margin: 50px auto;
+  background-color: rgb(163, 235, 135);
+}
+h2 {
+  margin-left: 20px;
+}
+.addBtn {
+  background-color: #000;
+  color: #fff;
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  left: 70%;
+}
+
+input#add {
+  background-color: #000;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.cat img {
+  margin-bottom: 50px;
+}
+.catTxt li {
+  padding: 65px 0;
+}
+img {
+  width: 80%;
+  border-radius: 50%;
+  animation: cat 2s ease-in-out infinite;
+}
+@keyframes cat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+    border-radius: 30%;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+button {
+  background-color: yellow;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+button:hover {
+  scale: 1.2;
+  background: rgb(255, 217, 0);
+}
+button#bottomBtn {
+  border: none;
+  outline: none;
+  padding: 2% 5%;
+  background-color: yellow;
+  margin: 0 2%;
+}
+.bottom {
+  text-align: center;
+}
+.addModal {
+  margin: 20% 0;
+  width: 100%;
+  text-align: center;
+}
