@@ -1,0 +1,21 @@
+p {
+  font-weight: bold;
+  line-height: 0.8;
+}
+
+li.title {
+  display: flex;
+  justify-content: left;
+}
+
+li a {
+  margin: 0 2%;
+}
+
+.active {
+  background-color: orange;
+  color: #fff;
+  padding: 1%;
+  border-radius: 20px;
+  transition: 0.5s;
+}
