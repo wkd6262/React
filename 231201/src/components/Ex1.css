@@ -1,0 +1,58 @@
+div.home {
+  width: 80%;
+  border: 1px solid;
+  margin: 5% auto;
+}
+h3 {
+  margin: 0;
+}
+.about {
+  background-color: red;
+  height: 15vh;
+  color: #fff;
+  line-height: 10;
+}
+
+.main {
+  background-color: red;
+  height: 15vh;
+  color: #fff;
+  line-height: 10;
+}
+.footer {
+  background-color: skyblue;
+  height: 20vh;
+  color: #fff;
+  text-align: center;
+  line-height: 10;
+}
+
+.hide {
+  display: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: orange;
+  margin: 0;
+}
+
+.logo {
+  background: url(../../public/images/logo.png) no-repeat 100% / contain;
+  font-size: 5rem;
+  color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+form {
+  text-align: center;
+  background-color: lightblue;
+}
+
+form h1 {
+  margin: 0;
+}
