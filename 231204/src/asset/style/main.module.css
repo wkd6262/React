@@ -1,0 +1,36 @@
+body * {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+.wrapper {
+  margin: 20px auto;
+  width: 80vw;
+  border: 1px solid;
+}
+
+h1,
+h2 {
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.mainBg {
+  background-color: orange;
+  color: white;
+}
+
+footer {
+  background-color: #527853;
+  height: 10vh;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
